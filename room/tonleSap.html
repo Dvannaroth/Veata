@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aframe/1.4.2/aframe.min.js"></script>
+    <style>
+        .button {
+            position: fixed;
+            z-index: 3;
+            top: 50px;
+            right: 50px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            padding: 20px 30px;
+            font-size: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            }   
+    </style>
+</head>
+<body>
+    <a href="/room/mtroom.html" class="button">Close</a>
+    <a-scene>
+        <img id="panorama" src="/img/360/R0010882.JPG">
+        <a-sky src="#panorama" rotation="0 -90 0"></a-sky>
+    </a-scene>
+</body>
+</html>
