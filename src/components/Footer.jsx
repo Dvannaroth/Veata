@@ -7,14 +7,14 @@ const Footer = () => {
     <>
     <div className='grid grid-cols-3 text-white mt-7  bg-[#1f293736] p-4'>
       <div className='pl-4 flex flex-col gap-1.5'>
-        <Link to="/"><img src={veata_logo} alt="Veata Logo" className='w-[90px] h-auto' /></Link>
+        <Link to="/veata"><img src={veata_logo} alt="Veata Logo" className='w-[90px] h-auto' /></Link>
         <p className='text-sm  text-gray-400'>ទទួលទានអាហារ ភេសជ្ជៈឆ្ងាញ់ៗ អបជាមួយទេសភាពដ៏ស្រស់ស្អាតពីទឹកដីជ្រោយចង្វារ។</p>
       </div>
 
       <div className='pl-24 flex flex-col gap-1.5'>
       <h1 className='text-xl font-bold'>Quick Links</h1>
       <ul className='text-sm  text-gray-400 flex flex-col gap-1.5'>
-        <li><Link to="/">Home</Link></li>
+        <li><Link to="/veata">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/service">Service</Link></li>
       </ul>
