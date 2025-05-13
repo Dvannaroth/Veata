@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+
+
+body {
+  background-color: #021425;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 0 auto;
+}
