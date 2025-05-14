@@ -8,10 +8,15 @@ const hero = () => {
     <div className='container'>
       <div className='home-content'>
         <h1 className='font-bold text-2xl'>Veata Skylounge and Restaurant</h1>
-        <p className='w-[50%]'>where an unforgettable dining experience unfolds against the backdrop of Phnom Penh's most spectacular panoramic views.
+        <p className='w-[50%]'>where an unforgettable dining experience unfolds against the backdrop of Phnom Penh's most spectacular panoramic views.</p>
 
-        </p>
+        <div class='grid grid-cols-1 gap-4 md:grid-cols-2 font-bold'>
+        <Link to="/about" className="bg-[#81ba1e] text-cyan-950 px-6 py-3 rounded-md text-lg hover:bg-cyan-700 hover:text-white transition duration-300">Discover</Link>
         <Link to="/about" className="bg-[#81ba1e] text-cyan-950 px-6 py-3 rounded-md text-lg hover:bg-cyan-700 hover:text-white transition duration-300">Reservation</Link>
+        </div>
+
+
+
       </div>
     </div>
 
