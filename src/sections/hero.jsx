@@ -22,7 +22,7 @@ const hero = () => {
 
     <div class='mt-12'>
     <h1 class='text-4xl font-bold text-white text-center' > Our Venue </h1>
-    <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <div class="mt-8 grid grid-cols-1 px-10 md:grid-cols-2 lg:grid-cols-3 md:px-0 gap-8">
                 <div class="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-xl transition duration-300 text-center">
                     <div class="text-blue-600 mb-4 text-4xl"><i class="fas fa-vr-cardboard"></i></div>
                     <h3 class="text-xl font-semibold mb-2">Khmer Food</h3>
