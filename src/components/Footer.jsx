@@ -18,8 +18,8 @@ const Footer = () => {
       <h1 className='text-xl font-bold'>Quick Links</h1>
       <ul className='text-sm  text-gray-400 flex flex-col gap-0.5 pt-2'>
         <li><Link to="/veata">Home</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/service">Service</Link></li>
+        <li><Link to="/veata/about">About</Link></li>
+        <li><Link to="/veata/service">Service</Link></li>
       </ul>
       </div>
 

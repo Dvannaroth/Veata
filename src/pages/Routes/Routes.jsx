@@ -13,27 +13,27 @@ const router = createBrowserRouter([
     element:<Home />
 },
 {
-    path:"/About",
+    path:"/veata/About",
     element:<About />
 },
 {
-    path:"/Service",
+    path:"/veata/Service",
     element: <Service />
 },
 
 
 {
-    path:"/Event",
+    path:"/veata/Event",
     element: <Event />
 },
 
 
 {
-    path:"/ErrorBoundary",
+    path:"/veata/ErrorBoundary",
     element:<ErrorBoundary />
 },
 {
-    path:"/NotFoundPage",
+    path:"/veata/NotFoundPage",
     element: <NotFoundPage />
 }
 

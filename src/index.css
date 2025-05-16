@@ -13,9 +13,26 @@ body {
   margin: 0 auto;
 }
 
+h1 {
+  color: rgb(120, 226, 212);
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+a{
+  color: white;
+}
+
 @media (max-width:640px) {
   .App {
     width: 100dvw;
   }
   
 }
+
