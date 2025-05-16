@@ -29,7 +29,7 @@ const Navbar = () => {
         <li><NavLink to="/veata">Home</NavLink></li>
         <li><NavLink to="/veata/about">About</NavLink></li>
         <li><NavLink to="/veata/service">Service</NavLink></li>
-        <li><NavLink to="/veata/event">Events</NavLink></li>
+        <li><NavLink to="/veata/event">Event</NavLink></li>
       </ul>
       
       </nav>
