@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
       <nav>
       <div>
-      <Link to="/"><img src={veata_logo} alt="Veata Logo" className='w-[90px] h-auto' /></Link>
+      <Link to="/veata"><img src={veata_logo} alt="Veata Logo" className='w-[90px] h-auto' /></Link>
       </div>
       <div>
       <button className='mobile-menu' 
@@ -26,7 +26,7 @@ const Navbar = () => {
       </button>
       </div>
       <ul className={menuOpen ? "open" : ""}>
-        <li><NavLink to="/">Home</NavLink></li>
+        <li><NavLink to="/veata">Home</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/service">Service</NavLink></li>
         <li><NavLink to="/event">Events</NavLink></li>
